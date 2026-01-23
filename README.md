@@ -17,8 +17,10 @@ An LSTM-based deep learning model is trained on early time segments and evaluate
 
 ## Dataset
 - **OhioT1DM Dataset (Kaggle)**
-- Raw dataset is **not included** in this repository due to licensing restrictions
-- Users must download the dataset separately from Kaggle and provide the local CSV path
+- Raw dataset is not included in this repository due to licensing restrictions
+- Download the dataset from Kaggle and place the CSV files inside the `data/` directory
+- Update the dataset path in `src/data_utils.py` to point to the local file
+
 
 ---
 
